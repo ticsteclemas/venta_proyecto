@@ -69,6 +69,7 @@ def validar_decimal(valor: str, nombre_campo="El campo", min_val=None, max_val=N
     if max_val is not None and num > max_val:
         messagebox.showerror("Validación", f"{nombre_campo} no puede ser mayor que {max_val}.")
         print("Mi primer cambio")
+        print("Mi segundo cambio")
         return False, None
 
     return True, num

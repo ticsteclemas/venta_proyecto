@@ -13,5 +13,6 @@ def centrar_ventana(ventana, aplicacion_largo, aplicacion_ancho):
     x = int((pantalla_ancho - aplicacion_ancho) / 2)
     y = int((pantalla_largo - aplicacion_largo) / 2)
     print("Segundo cambio en otro archivo")
+    print("Tercer Cambio")
 
     return ventana.geometry(f"{aplicacion_ancho}x{aplicacion_largo}+{x}+{y}")
